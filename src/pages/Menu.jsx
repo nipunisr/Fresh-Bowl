@@ -1,3 +1,6 @@
+import React from "react";
+import Categories from "../components/Categories";
+
 const Menu = () => {
     return (
       <div className="pt-16">

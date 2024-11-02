@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import infoCrd from '../assets/infocrd.png'
 
 const FeaturedCards = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -7,12 +8,12 @@ const FeaturedCards = () => {
   const slides = [
     {
       title: "Bursting with Freshness",
-      image: "/fresh-bowl-1.jpg",
+      image:  {infoCrd},
       description: "Experience the explosion of today's fresh cut fruits and premium toppings, ready to fuel your journey!"
     },
     {
       title: "Fuel Your Day",
-      image: "/smoothie-bowl-2.jpg",
+      image: {infoCrd},
       description: "Fresh, Delicious Smoothie Bowls! Experience the perfect blend of fresh fruits topped with our signature ingredients."
     },
     {
@@ -83,7 +84,8 @@ const FeaturedCards = () => {
           </div>
 
           {/* Promotional Card */}
-          <div className="bg-green-800 rounded-2xl p-8 flex flex-col justify-center">
+          <div className="bg-green-800 rounded-2xl p-8 flex flex-col justify-center" style={{ backgroundImage: `url(${infoCrd})`, 
+  backgroundPosition: 'center'  }}>
             <h3 className="text-white text-2xl font-bold mb-4">
               Get 10% Off This Week!
             </h3>

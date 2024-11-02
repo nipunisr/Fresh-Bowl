@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm fixed w-full z-50">
+    <nav className="bg-[#e1fac5]  fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Desktop Menu */}
@@ -30,19 +30,19 @@ const Navbar = () => {
               </button>
             </Link>
             <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
+            <Link to="/" className="flex items-center ml-[100px]">
               <span className="text-5xl font-extrabold text-center">FRESHBOWL</span>
             </Link>
           </div>
 
-          <div className="ml-auto flex items-center space-x-4">
+         <div className="flex space-x-4 pl-[220px]">
   <Link to="/contact">
-    <button className="space-x-4 w-full text-center text-black border border-black bg-white rounded-full px-4 py-2 hover:bg-gray-100 transition-colors">
+    <button className="space-x-4 text-center text-black border border-black bg-white rounded-full px-4 py-2 hover:bg-gray-100 transition-colors">
       Contact
     </button>
   </Link>
 
-  <button className="w-full rounded-full mr-0 bg-black text-center text-white hover:bg-gray-800 transition-colors p-2">
+  <button className="rounded-full bg-black text-center text-white hover:bg-gray-800 transition-colors p-2">
     <Bell size={24} color="white" />
   </button> 
 </div>

@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         freshGreen: '#69AF1E',  // Light green
-        darkGreen: '#10B981',   // Dark green
+        darkGreen: '#15493A',   // Dark green
       }, 
 
     },
