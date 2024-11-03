@@ -25,7 +25,7 @@ const WellnessSection = () => {
             </div>
           </div>
 
-          {/* Interactive Hotspots */}
+          
           <div className="absolute inset-0">
             {[
               { top: '30%', left: '40%' },

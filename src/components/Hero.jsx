@@ -26,7 +26,7 @@ const Hero = () => {
     left: 0, 
     right: 0, 
     bottom: 0, 
-    backgroundColor: 'rgba(0, 0, 0, 0.5)' // Adjust the rgba value to change the opacity
+    backgroundColor: 'rgba(0, 0, 0, 0.5)' 
   }}></div>
   
       <div className="flex flex-col justify-center h-full "  style={{ position: 'relative', zIndex: 1 }} >

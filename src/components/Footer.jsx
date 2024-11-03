@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-darkGreen max-w-6xl mx-auto sm:px-6 lg:px-8 text-white py-12 px-4 md:px-8 relative rounded-2xl p-8 flex flex-col justify-center ">
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-11 ">
         
-        {/* Logo and Address */}
+       
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
           <h2 className="text-3xl font-bold text-green-200">FRESHBOWL</h2>
           <p className="text-sm text-green-100">
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         </div>
         
-        {/* Quick Links */}
+      
         <div className="flex justify-center px-11 md:justify-start space-x-16 text-green-100">
           <ul className="space-y-6 ">
             <li className="flex space-x-4"><img src={vector}  /> <a href="#" className="hover:text-green-300">Help</a></li>

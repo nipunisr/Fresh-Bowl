@@ -1,12 +1,13 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import pic2 from "../assets/pic2.jpg";
 
 const NutrientBowls = () => {
   return (
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left Card */}
+         
           <div className="bg-green-800 rounded-2xl p-8 flex flex-col justify-center">
             <h2 className="text-white text-3xl font-bold mb-4">
               Fuel Your Body<br />
@@ -24,12 +25,12 @@ const NutrientBowls = () => {
             </button>
           </div>
 
-          {/* Right Card */}
-          <div className="relative rounded-2xl overflow-hidden">
+        
+          <div className="relative rounded-2xl overflow-hidden h-96">
             <img
-              src="/green-energy-bowl.jpg"
+              src={pic2}
               alt="Green Energy Bowl"
-              className="w-full h-full object-cover"
+              className="w-full  h-full object-cover"
             />
             <div className="absolute inset-0 bg-black/40">
               <div className="absolute bottom-0 left-0 p-8">

@@ -38,7 +38,7 @@ const FeaturedCards = () => {
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Featured Card */}
+         
           <div className="relative rounded-2xl overflow-hidden h-96">
             <img
               src={slides[activeSlide].image}
@@ -56,7 +56,7 @@ const FeaturedCards = () => {
               </div>
             </div>
             
-            {/* Navigation Buttons */}
+          
             <div className="absolute bottom-8 right-8 flex space-x-2">
               <button
                 onClick={prevSlide}
@@ -72,7 +72,7 @@ const FeaturedCards = () => {
               </button>
             </div>
 
-            {/* Slide Indicators */}
+            
             <div className="absolute bottom-8 left-8 flex space-x-2">
               {slides.map((_, index) => (
                 <button
@@ -86,7 +86,7 @@ const FeaturedCards = () => {
             </div>
           </div>
 
-          {/* Promotional Card */}
+         
           <div className="bg-green-800 rounded-2xl p-8 flex flex-col justify-center" style={{ backgroundImage: `url(${infoCrd})`, 
   backgroundPosition: 'center'  }}>
             <h3 className="text-white text-2xl font-bold mb-4">
