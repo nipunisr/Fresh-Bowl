@@ -1,10 +1,10 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-
+import pic from '../assets/pic.png';
 const CategoryCard = ({ title, description, image }) => (
   <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
     <div className="relative h-48">
-      <img src={image} alt={title} className="w-full h-full object-cover" />
+      <img src={pic} alt={title} className="w-full h-full object-cover" />
     </div>
     <div className="p-6">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>

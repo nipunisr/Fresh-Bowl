@@ -3,8 +3,8 @@ import vector from '../assets/vector.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-darkGreen text-white py-12 px-4 md:px-8">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-11">
+    <footer className="bg-darkGreen max-w-6xl mx-auto sm:px-6 lg:px-8 text-white py-12 px-4 md:px-8 relative rounded-2xl p-8 flex flex-col justify-center ">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-11 ">
         
         {/* Logo and Address */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex flex-col items-center md:items-end text-center md:text-right text-green-100">
-          <div className="border-t border-green-600 w-full my-4"></div>
+          <div className="border-t border-green-600 mx-auto px-4 sm:px-6 lg:px-8 w-full my-4"></div>
           <p className="text-xs">© 2024 Safenax (pvt) Ltd | This site is a demo project for testing purposes only.</p>
         </div>
         </div>

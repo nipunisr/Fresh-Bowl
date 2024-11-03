@@ -1,5 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import pic from "../assets/pic.png";
+import pic2 from "../assets/pic2.jpg";
+import pic3 from "../assets/pic3.jpg";
 
 const MenuCard = ({ title, price, image }) => (
   <div className="group relative overflow-hidden rounded-xl">
@@ -27,17 +30,17 @@ const HealthyMenus = () => {
     {
       title: "Berry Bliss Bowl",
       price: "12.99",
-      image: "/berry-bowl.jpg"
+      image: pic
     },
     {
       title: "Detox Fuel Bowl",
       price: "13.99",
-      image: "/detox-bowl.jpg"
+      image: pic2
     },
     {
       title: "Cosmic Dream Bowl",
       price: "14.99",
-      image: "/cosmic-bowl.jpg"
+      image: pic3
     }
   ];
 

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import infoCrd from '../assets/infocrd.png'
+import infoCrd from '../assets/infocrd.png';
+import pic from "../assets/pic.png";
+import pic2 from "../assets/pic2.jpg";
+import pic3 from "../assets/pic3.jpg";
 
 const FeaturedCards = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -8,17 +11,17 @@ const FeaturedCards = () => {
   const slides = [
     {
       title: "Bursting with Freshness",
-      image:  {infoCrd},
+      image:  pic2,
       description: "Experience the explosion of today's fresh cut fruits and premium toppings, ready to fuel your journey!"
     },
     {
       title: "Fuel Your Day",
-      image: {infoCrd},
+      image: pic3,
       description: "Fresh, Delicious Smoothie Bowls! Experience the perfect blend of fresh fruits topped with our signature ingredients."
     },
     {
       title: "Green Energy Bowl",
-      image: "/green-bowl.jpg",
+      image: pic,
       description: "Smooth, rich and nutritious for a refreshing start to your most powerful day."
     }
   ];

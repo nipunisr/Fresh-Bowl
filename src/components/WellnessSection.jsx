@@ -1,12 +1,12 @@
 import React from 'react';
-
+import pic4 from "../assets/pic4.jpg";
 const WellnessSection = () => {
   return (
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative rounded-2xl overflow-hidden">
           <img
-            src="/superfruit-bowl.jpg"
+            src= {pic4}
             alt="Golden Superfruit Delight Bowl"
             className="w-full h-[500px] object-cover"
           />
