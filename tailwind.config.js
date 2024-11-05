@@ -9,6 +9,9 @@ module.exports = {
         freshGreen: '#69AF1E',  // Light green
         darkGreen: '#15493A',   // Dark green
       }, 
+      fontFamily: {
+        climateCrisis: ['"ClimateCrisis"', 'sans-serif'],
+      },
 
     },
   },

@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
             <div className="flex-shrink-0">
             <Link to="/" className="flex items-center ml-[100px]">
-              <span className="text-5xl font-extrabold text-center">FRESHBOWL</span>
+              <span className="items-center22 text-5xl font-extrabold text-center font-climateCrisis bg-gradient-to-r from-freshGreen to-darkGreen bg-clip-text text-transparent">FRESHBOWL</span>
             </Link>
           </div>
 
