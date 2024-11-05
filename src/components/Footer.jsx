@@ -1,13 +1,13 @@
 import React from 'react';
-import vector from '../assets/vector.png';
+import vector from '../assets/Vector.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-darkGreen max-w-6xl mx-auto sm:px-6 lg:px-8 text-white py-12 px-4 md:px-8 relative rounded-2xl p-8 flex flex-col justify-center ">
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-11 ">
+    <footer className="relative flex flex-col justify-center max-w-6xl p-8 px-4 py-12 mx-auto text-white bg-darkGreen sm:px-6 lg:px-8 md:px-8 rounded-2xl ">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-11 ">
         
        
-        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+        <div className="flex flex-col items-center space-y-4 text-center md:items-start md:text-left">
           <h2 className="text-3xl font-bold text-green-200">FRESHBOWL</h2>
           <p className="text-sm text-green-100">
             FreshBowl<br />
@@ -15,24 +15,24 @@ const Footer = () => {
             Greenwood
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-green-100 border border-green-100 rounded-full px-3 py-2 hover:bg-green-800 transition">
+            <a href="#" className="px-3 py-2 text-green-100 transition border border-green-100 rounded-full hover:bg-green-800">
               Facebook
             </a>
-            <a href="#" className="text-green-100 border border-green-100 rounded-full px-3 py-2 hover:bg-green-800 transition">
+            <a href="#" className="px-3 py-2 text-green-100 transition border border-green-100 rounded-full hover:bg-green-800">
               Youtube
             </a>
-            <a href="#" className="text-green-100 border border-green-100 rounded-full px-3 py-2 hover:bg-green-800 transition">
+            <a href="#" className="px-3 py-2 text-green-100 transition border border-green-100 rounded-full hover:bg-green-800">
               Instagram
             </a>
           </div>
-          <div className="flex flex-col items-center md:items-end text-center md:text-right text-green-100">
-          <div className="border-t border-green-600 mx-auto px-4 sm:px-6 lg:px-8 w-full my-4"></div>
+          <div className="flex flex-col items-center text-center text-green-100 md:items-end md:text-right">
+          <div className="w-full px-4 mx-auto my-4 border-t border-green-600 sm:px-6 lg:px-8"></div>
           <p className="text-xs">© 2024 Safenax (pvt) Ltd | This site is a demo project for testing purposes only.</p>
         </div>
         </div>
         
       
-        <div className="flex justify-center px-11 md:justify-start space-x-16 text-green-100">
+        <div className="flex justify-center space-x-16 text-green-100 px-11 md:justify-start">
           <ul className="space-y-6 ">
             <li className="flex space-x-4"><img src={vector}  /> <a href="#" className="hover:text-green-300">Help</a></li>
             <li className="flex space-x-4"><img src={vector} /><a href="#" className="hover:text-green-300">Shop</a></li>
